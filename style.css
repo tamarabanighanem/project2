@@ -1,330 +1,96 @@
-* {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+body {
+
+    overflow-x: hidden;
+    background-color: pink;
+}
+
+#hero {
+    justify-content: center;
+    text-align: center;
+}
+
+#timage {
+    border: solid 5px white;
+    border-radius: 50%;
+}
+
+#edu {
+    margin-top: 1rem;
+
 
 }
 
-body {
-    background-image: url("bbbjpg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: monospace;
+#edu-c {
+    margin-top: 9rem;
+
+}
+
+#pro {
+    background-color: white;
+    color: black;
+}
+
+#pro-c {
+    margin-top: 5rem;
+    /* height: 35rem; */
+}
+
+#edu-h {
+    color: white;
+    text-shadow: 2px 2px 5px purple;
+}
+
+#name-h {
+    font-family: 'Zeyada';
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px white;
+
+}
+
+/* #name-h:hover {
+
+} */
+.lead {
+    font-weight: bold;
 }
 
 p {
-    color: white;
+    font-weight: bold;
 }
 
-nav {
-    color: white;
-    height: 100px;
-    width: 100%;
-    position: relative;
-}
-
-span {
-    font-size: 45px;
-    margin-left: 30px;
-    margin-top: 10px;
-}
-
-nav ul {
-    float: right;
-    margin-right: 20px;
+#name {
+    font-family: 'Zeyada';
+    font-weight: bold;
+    font-size: 3rem;
 }
 
 
-
-.bac img {
-    width: 100%;
-    margin-left: 0;
-    position: absolute;
-    opacity: 0.4;
-    height: 100%;
-    margin-top: 0;
+.skill {
+    justify-content: space-evenly;
 }
 
-img {
-    margin-left: 10px;
+#lin {
+    font-weight: bold;
 }
 
-
-
-nav ul li {
-    display: inline-block;
-    margin: 0.5px;
-    line-height: 80px;
-
-}
-
-nav ul li a {
-    color: white;
-    font-size: 17px;
-    text-transform: uppercase;
-    text-decoration: none;
-
-    padding: 7px;
-
-
-}
-
-
-a:hover {
-    background: #b483d9;
+#lin:hover {
+    background: #cca5ea;
     transition: .5s;
     color: purple;
     border-radius: 3px;
+    box-shadow: 2px 2px 5px white;
+
 }
 
-.main {
-    display: inline-block;
-    position: relative;
-    margin-top: -25px;
-}
-
-.main img {
-    margin-top: 160px;
-    width: 25%;
-    border: 7px solid #b483d9;
-    border-radius: 50%;
-    margin-left: 300px;
-}
-
-.main p {
-    width: 35%;
-    line-height: 40px;
-    height: 10%;
-    margin-top: 250px;
+h3 {
+    font-size: 20px;
+    text-align: center;
     margin-right: 160px;
+    margin-bottom: 43px;
+}
+
+
+.pra {
     color: white;
-    font-size: 17px;
-    font-weight: bold;
-    float: right;
-
-}
-
-.im {
-    font-size: 50px;
-}
-
-p .name {
-    font-size: 80px;
-    color: #b483d9;
-
-}
-
-.line1 {
-    color: #b483d9;
-    size: 20px;
-    margin-top: 95px;
-    border-style: solid;
-    border-width: 3px;
-
-}
-
-.project {
-    margin-top: -30px;
-    margin-bottom: 70px;
-    /* display: grid; */
-    grid-template-columns: auto auto auto;
-    justify-content: space-evenly;
-    /* margin-left: 90px; */
-    /* background-color: white; */
-
-
-}
-
-.card {
-    /* width: 350px;
-    margin: 30px;
-    margin-top: 100px;
-    display: inline-block;
-    background-color: #d5c4e2; */
-    box-shadow: 7px 7px 10px 0px rgba(177, 118, 193, 0.52);
-    /* justify-content: space-around;  */
-}
-
-.line2 {
-    color: #b483d9;
-    size: 20px;
-    margin-top: 70px;
-    border-style: solid;
-    border-width: 3px;
-}
-
-.justify-content-center {
-    margin-top: -40px;
-    justify-content: center !important;
-}
-
-.cards .card:hover {
-    background: #fff;
-    box-shadow: 0px 15px 26px rgba(115, 114, 114, 0.5);
-    -webkit-transition: all 0.2s ease-in;
-    -moz-transition: all 0.2s ease-in;
-    -ms-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
-    margin-top: 50px;
-
-}
-
-.card img {
-    /* margin-left: 25px; */
-    margin-top: 20px;
-    width: 240px;
-}
-
-.card p {
-    margin: 20px;
-}
-
-.skillsection {
-    /* background-color: white; */
-    margin-top: -130px;
-}
-
-
-
-.pro {
-    text-align: center;
-    font-weight: bold;
-    margin-top: 120px;
-    padding: 100px;
-    color: white;
-}
-
-
-.proo {
-    text-align: start;
-    font-weight: bold;
-    margin-top: 150px;
-    color: white;
-    margin-left: 15%;
-}
-
-.prooo {
-    text-align: center;
-    font-weight: bold;
-    margin-top: -155px;
-    padding: 100px;
-    color: white;
-}
-
-.skills {
-    margin-left: 200px;
-    margin-top: 120px;
-    display: grid;
-    width: 75%;
-    grid-template-columns: auto auto auto auto auto;
-    justify-content: space-around;
-    color: white;
-}
-
-
-
-.myskill {
-    background-color: white;
-    display: inline-block;
-    text-align: center;
-    width: 130px;
-    /* border-radius: 10%;
-    border: #b483d9 solid 4px; */
-    box-shadow: 7px 7px 10px 0px rgb(138 127 127 / 52%);
-    color: white;
-}
-
-.myskill:hover {
-
-    /* margin-left: 10px; */
-    width: 150px;
-    transition: 1s;
-
-}
-
-.myskill img {
-    margin-top: 10px;
-    margin-left: 0;
-}
-
-.myskill p {
-    text-align: center;
-    margin-top: 10px;
-    font-weight: bold;
-    color: black;
-}
-
-.anotheskill {
-    color: rgb(0, 0, 0);
-    margin: 80px 160px;
-    font-weight: bold;
-}
-
-.anotheskill ul li {
-    margin: 40px;
-    padding: 10px;
-    border: black solid 2px;
-    text-decoration: solid;
-    background-color: white;
-    /* background-image: url("bbbjpg.jpg"); */
-    border-radius: -10%;
-    box-shadow: 7px 7px 10px 0px rgb(138 127 127 / 52%);
-    display: inline-block;
-
-}
-
-#fproject {
-    height: 912px;
-    margin-top: -300px;
-}
-
-.myproject {
-    margin-top: -230px;
-}
-
-.sec3 {
-    font-weight: bold;
-}
-
-.myeducation {
-    margin-top: -200px;
-}
-
-.justify-content-center {
-    margin-top: 50px;
-    justify-content: center !important;
-
-}
-
-.line3 {
-    color: #b483d9;
-    size: 20px;
-    margin-top: 260px;
-    border-style: solid;
-    border-width: 3px;
-}
-
-.skil {
-    text-align: center;
-    font-weight: bold;
-    margin-top: 20px;
-    padding: 100px;
-    color: white;
-}
-
-.social-icons {
-    text-align: center;
-    color: #b483d9;
-
-}
-
-.social-icons a {
-    color: #b483d9;
-}
-
-.card-text {
-    color: black;
 }
