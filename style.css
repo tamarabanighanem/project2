@@ -31,7 +31,7 @@ body {
 }
 
 #pro-c {
-    margin-top: 5rem;
+    margin-top: 3rem;
     /* height: 35rem; */
 }
 
@@ -83,14 +83,18 @@ p {
 
 }
 
-h3 {
+/* h3 {
     font-size: 20px;
     text-align: center;
     margin-right: 160px;
     margin-bottom: 43px;
-}
+} */
 
 
 .pra {
     color: white;
+}
+
+#pro-img {
+    margin-top: 20px;
 }
